@@ -55,10 +55,55 @@ video {
 //   background-color: rgba(86, 61, 124, 0.15);
 //   border: 1px solid rgba(86, 61, 124, 0.2);
 // }
+@font-face {
+  font-family: "Amulya-Light";
+  src: url("../fonts/Amulya-Light.woff2") format("woff2"),
+    url("../fonts/Amulya-Light.woff") format("woff");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Amulya-Medium";
+  src: url("../fonts/Amulya-Medium.woff2") format("woff2"),
+    url("../fonts/Amulya-Medium.woff") format("woff");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Amulya-Bold";
+  src: url("../fonts/Amulya-Bold.woff2") format("woff2"),
+    url("../fonts/Amulya-Bold.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Melodrama-Semibold";
+  src: url("../fonts/Melodrama-Semibold.woff2") format("woff2"),
+    url("../fonts/Melodrama-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Melodrama-Bold";
+  src: url("../fonts/Melodrama-Bold.woff2") format("woff2"),
+    url("../fonts/Melodrama-Bold.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
 
 html {
   background-color: #cec2e0;
   color: white;
+  font-family: "Amulya-Medium";
   font-size: 30px;
 }
 
@@ -80,5 +125,6 @@ h1 img {
 }
 
 h2 {
+  font-family: "Melodrama-Bold";
   font-size: 100px;
 }
