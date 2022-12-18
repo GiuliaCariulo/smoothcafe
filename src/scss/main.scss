@@ -105,6 +105,10 @@ header {
   background-size: cover;
   background-position: center;
   height: 758px;
+  // display: none;
+}
+
+header:hover {
   display: none;
 }
 
