@@ -98,6 +98,7 @@ body {
   font-family: "Amulya-Medium";
   font-size: 30px;
   padding: 130px 0;
+  line-height: 42px;
 }
 
 header {
@@ -105,12 +106,12 @@ header {
   background-size: cover;
   background-position: center;
   height: 758px;
-  // display: none;
-}
-
-header:hover {
   display: none;
 }
+
+// header:hover {
+//   display: none;
+// }
 
 h1 {
   position: relative;
@@ -126,4 +127,11 @@ h2 {
   font-family: "Melodrama-Bold";
   font-size: 100px;
   margin-bottom: 100px;
+}
+
+// .smoothcafe-presentation {
+// }
+
+.logo-presentation {
+  height: 200px;
 }
