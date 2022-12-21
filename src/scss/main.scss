@@ -141,14 +141,6 @@ section {
   margin-bottom: 140px;
 }
 
-ul {
-  margin-left: 40px;
-}
-
-.section-menu li::marker {
-  list-style-type: none;
-}
-
 .logo-presentation {
   height: 240px;
   padding: 20px;
@@ -177,4 +169,16 @@ ul {
 .menu-1 {
   background-image: url(../img/smoothies.png);
   background-size: contain;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.products li::marker {
+  list-style-type: none;
 }
