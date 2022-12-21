@@ -99,7 +99,6 @@ body {
   font-size: 30px;
   padding: 130px 0;
   line-height: 42px;
-  text-align: center;
 }
 
 header {
@@ -135,16 +134,25 @@ section {
   margin-bottom: 140px;
 }
 
-.logo-presentation {
+section-menu .logo-presentation {
   height: 200px;
-}
-
-.illustration-menu-2 img {
-  height: 145px;
-  width: auto;
 }
 
 .illustration-menu-1 img {
   height: 119px;
   width: auto;
+}
+.illustration-menu-2 img {
+  height: 145px;
+  width: auto;
+}
+
+.illustration-menu {
+  text-align: center;
+}
+
+.tag-menu {
+  font-family: "Melodrama-Bold";
+  font-size: 36px;
+  margin-top: 25px;
 }
