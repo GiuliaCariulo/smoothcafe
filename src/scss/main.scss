@@ -130,8 +130,23 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-family: "Melodrama-Bold";
+  font-size: 65px;
+  text-align: center;
+  margin-top: 50px;
+}
+
 section {
   margin-bottom: 140px;
+}
+
+ul {
+  margin-left: 40px;
+}
+
+.section-menu li::marker {
+  list-style-type: none;
 }
 
 .logo-presentation {
@@ -160,5 +175,6 @@ section {
 }
 
 .menu-1 {
-  background-image: url(../img/viennoiseries.jpeg);
+  background-image: url(../img/smoothies.png);
+  background-size: contain;
 }
