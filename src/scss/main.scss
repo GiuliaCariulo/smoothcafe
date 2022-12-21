@@ -97,7 +97,7 @@ body {
   color: white;
   font-family: "Amulya-Medium";
   font-size: 30px;
-  padding: 130px 0;
+  // padding: 130px 0;
   line-height: 42px;
 }
 
@@ -106,7 +106,7 @@ header {
   background-size: cover;
   background-position: center;
   height: 758px;
-  display: none;
+  // display: none;
 }
 
 // header:hover {
@@ -137,6 +137,7 @@ section {
 .logo-presentation {
   height: 240px;
   padding: 20px;
+  float: right;
 }
 
 .illustration-menu-1 img {
@@ -156,4 +157,8 @@ section {
   font-family: "Melodrama-Bold";
   font-size: 36px;
   margin-top: 25px;
+}
+
+.menu-1 {
+  background-image: url(../img/viennoiseries.jpeg);
 }
