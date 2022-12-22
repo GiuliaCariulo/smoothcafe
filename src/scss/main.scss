@@ -216,6 +216,26 @@ em {
   text-align: right;
 }
 
-.piece {
-  // transform: translateY(100%);
+// .piece {
+//   transform: translateY(100%);
+// }
+
+.evenements img {
+  height: 620px;
+  width: auto;
+}
+
+.evenements p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.evenements h4 {
+  margin: 25px 0 40px;
+}
+
+.evenements-text {
+  background-color: black;
+  padding: 20px;
+  margin: 20px;
 }
