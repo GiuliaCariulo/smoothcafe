@@ -139,7 +139,7 @@ h3 {
 
 h4 {
   font-family: "Melodrama-Bold";
-  font-size: 50px;
+  font-size: 45px;
   margin-bottom: 40px;
 }
 
@@ -231,10 +231,16 @@ em {
 
 .evenements h4 {
   margin: 25px 0 40px;
+  text-align: center;
+}
+.evenements-text-container {
+  position: relative;
 }
 
 .evenements-text {
-  background-color: black;
+  background-color: #00000056;
   padding: 20px;
   margin: 20px;
+  position: absolute;
+  top: -600px;
 }
