@@ -137,6 +137,12 @@ h3 {
   margin-top: 50px;
 }
 
+h4 {
+  font-family: "Melodrama-Bold";
+  font-size: 55px;
+  margin-bottom: 40px;
+}
+
 section {
   margin-bottom: 140px;
 }
@@ -177,8 +183,9 @@ section {
   justify-content: space-around;
   align-items: flex-end;
   padding: 20px;
+  margin-bottom: 170px;
 }
 
-.products li::marker {
+.products li {
   list-style-type: none;
 }
