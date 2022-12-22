@@ -178,7 +178,7 @@ hr {
 
 .menu-1 {
   background-image: url(../img/smoothies.png);
-  background-size: contain;
+  background-size: cover;
 }
 
 .products {
@@ -196,13 +196,16 @@ hr {
 
 .menu-2 {
   background-image: url(../img/viennoiseries.jpeg);
-  background-size: contain;
+  background-size: cover;
 }
 
-.viennoiserie p {
+.viennoiserie {
+  display: flex;
+  justify-content: space-between;
   font-family: "Amulya-Bold";
   font-weight: 700;
   margin: 2% 0;
+  border-bottom: 1px solid white;
 }
 
 em {
@@ -215,10 +218,6 @@ em {
 .price {
   text-align: right;
 }
-
-// .piece {
-//   transform: translateY(100%);
-// }
 
 .evenements img {
   height: 620px;
