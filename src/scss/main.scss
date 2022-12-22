@@ -134,17 +134,21 @@ h3 {
   font-family: "Melodrama-Bold";
   font-size: 65px;
   text-align: center;
-  margin-top: 50px;
+  margin: 50px 0 95px;
 }
 
 h4 {
   font-family: "Melodrama-Bold";
-  font-size: 55px;
+  font-size: 50px;
   margin-bottom: 40px;
 }
 
 section {
   margin-bottom: 140px;
+}
+
+hr {
+  border: 0.5px solid white;
 }
 
 .logo-presentation {
@@ -188,4 +192,30 @@ section {
 
 .products li {
   list-style-type: none;
+}
+
+.menu-2 {
+  background-image: url(../img/viennoiseries.jpeg);
+  background-size: contain;
+}
+
+.viennoiserie p {
+  font-family: "Amulya-Bold";
+  font-weight: 700;
+  margin: 2% 0;
+}
+
+em {
+  font-family: "Amulya-Light";
+  font-weight: 300;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.price {
+  text-align: right;
+}
+
+.piece {
+  // transform: translateY(100%);
 }
