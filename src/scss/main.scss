@@ -140,6 +140,7 @@ h1 img {
 h2 {
   font-family: "Melodrama-Bold";
   font-size: 100px;
+  line-height: 60px;
   margin: 200px 0 100px;
   text-align: center;
 }
@@ -269,4 +270,10 @@ em {
 
 .icon {
   font-family: "Awesome-Solid-900";
+}
+
+@media (max-width: 992px) {
+  h2 {
+    font-size: 60px;
+  }
 }
